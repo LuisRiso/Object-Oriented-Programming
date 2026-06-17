@@ -230,32 +230,6 @@ The course is supported by references related to Python, UML, and object-oriente
 * SUMMERFIELD, Mark. *Rapid GUI Programming with Python and Qt*.
 * FOWLER, Martin. *UML Essencial*.
 
-## 🧹 Suggested `.gitignore`
-
-For Python repositories, it is recommended to avoid committing generated files such as cache folders and compiled bytecode files.
-
-Suggested `.gitignore`:
-
-```gitignore
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-.env
-.venv
-venv/
-env/
-*.log
-.DS_Store
-```
-
-If `.pickle` files are only generated during execution and do not need to be stored, they can also be ignored:
-
-```gitignore
-*.pickle
-```
-
 ## 👨‍💻 Author
 
 Developed by **Luis Gustavo Riso** as part of the Object-Oriented Programming course at UNIFEI.
